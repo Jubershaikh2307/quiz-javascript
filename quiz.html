@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <p>Logo</p>
+        <div>
+            <p id="name">Username</p>
+            <button id="logout" style="margin-left: 20px; width: 100px;height: 50px; border: 0px; border-radius: 20px; background-color: orange; color: white;">LogOut</button>
+        </div>
+    </div>
+    <div class="main">
+
+        <div class="container">
+            <div class="col">
+                <h3 id="questionBox">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit Debitis?
+                </h3>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="first" value="a" required>
+                <label for="first">Testing 1</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="second" value="b" required>
+                <label for="second">Testing 2</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="third" value="c" required>
+                <label for="third">Testing 3</label>
+            </div>
+            <div class="col box">
+                <input name="option" type="radio" id="fourth" value="d" required>
+                <label for="fourth">Testing 4</label>
+            </div>
+            <button id="submit">Submit</button>
+            <button id="skip">Skip</button>
+        </div>
+
+    </div>
+    <script type="module" src="quiz.js"></script>
+</body>
+
+</html>

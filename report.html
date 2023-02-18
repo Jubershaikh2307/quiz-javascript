@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <p>Logo</p>
+        <div>
+            <p id="name">Username</p>
+            <button id="start"
+                style="margin-left: 20px; width: 100px;height: 50px; border: 0px; border-radius: 20px; background-color: orange; color: white;">Start</button>
+            <button id="logout"
+                style="margin-left: 20px; width: 100px;height: 50px; border: 0px; border-radius: 20px; background-color: orange; color: white;">LogOut</button>
+        </div>
+    </div>
+    <section class="main">
+        <table id="table">
+            <tr>
+                <th>Question</th>
+                <th>Your Answer</th>
+            </tr>
+        </table>
+        <h1>Total marks : <span id="total"></span></h1>
+
+    </section>   
+    <script type="module" src="report.js"></script>
+</body>
+
+</html>
